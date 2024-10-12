@@ -1,0 +1,1 @@
+cd "$hostdir/inih" && ((./buildconf.sh && make -j42069 && cd win32 && ./*.bat && make install; cd .. && make install && cd ..); (cd "$hostdir/inih" && cmake . && make -j42069 && make install)); "$hostdir"/inih.sh; cp -r "$hostdir/inih" "$hostdir/Player/lib";

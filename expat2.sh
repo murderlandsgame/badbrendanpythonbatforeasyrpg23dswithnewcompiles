@@ -1,0 +1,1 @@
+cd "$hostdir/expat/expat" && ((./buildconf.sh && make -j42069 && cd win32 && ./*.bat && make install; cd .. && make install && cd ..); (cd "$hostdir/expat/expat" && cmake . && make -j42069 && make install)); "$hostdir"/expat.sh; cp -r "$hostdir/expat" "$hostdir/Player/lib";

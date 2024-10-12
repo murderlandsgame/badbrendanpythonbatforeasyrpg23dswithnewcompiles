@@ -1,0 +1,11 @@
+install /usr/local/include/expat_config.h /opt/devkitpro/msys2/usr/include/expat
+install /usr/local/lib/libexpat.dll.a /opt/devkitpro/msys2/usr/lib
+install /usr/local/bin/msys-expat-1.dll /opt/devkitpro/msys2/usr/bin
+install /usr/local/include/expat.h /opt/devkitpro/msys2/usr/include
+install /usr/local/include/expat_external.h /opt/devkitpro/msys2/usr/include
+install /usr/local/lib/pkgconfig/expat.pc /opt/devkitpro/msys2/usr/lib/pkgconfig
+install /usr/local/bin/xmlwf.exe /opt/devkitpro/msys2/usr/bin
+install /usr/local/lib/cmake/expat-2.6.3/expat-config.cmake /opt/devkitpro/msys2/usr/lib/cmake/expat-2.6.3
+install /usr/local/lib/cmake/expat-2.6.3/expat-config-version.cmake /opt/devkitpro/msys2/usr/lib/cmake/expat-2.6.3
+install /usr/local/lib/cmake/expat-2.6.3/expat.cmake /opt/devkitpro/msys2/usr/lib/cmake/expat-2.6.3
+install /usr/local/lib/cmake/expat-2.6.3/expat-noconfig.cmake /opt/devkitpro/msys2/usr/lib/cmake/expat-2.6.3

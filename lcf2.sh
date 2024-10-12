@@ -1,0 +1,1 @@
+cd "$hostdir/liblcf/3ds" && make clean && make -j42069 && make install; "$hostdir"/lcf.sh; cp -r ../ "$hostdir/Player/lib";
